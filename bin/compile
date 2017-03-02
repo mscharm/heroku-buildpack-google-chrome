@@ -12,7 +12,7 @@ BUILD_DIR=$1
 CACHE_DIR=$2
 LP_DIR=`cd $(dirname $0); cd ..; pwd`
 
-PACKAGES="https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb libxss1"
+PACKAGES="https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb libxss1 xvfb"
 
 function error() {
   echo " !     $*" >&2
